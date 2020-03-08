@@ -1,7 +1,7 @@
 # anzyaccount
  SprinBootDemo
  - H2 DB is used to populate the data in memory
- - when springboot application starts then code in AnzyaccountApplication.java will populate Account and Transaction data in H2 tablles
+ - when springboot application starts then code in AnzyaccountApplication.java will populate Account and Transaction data in H2 tables
  - to see all the accounts following REST api with GET to use
  http://localhost:8080/anzyaccount/anz/accounts
  - to see transactions of a particular account following REST api with GET to use
