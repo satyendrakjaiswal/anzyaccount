@@ -23,7 +23,7 @@ public class TransactionServiceImpl implements TransactionService {
             return optionalTransactions.get();
         }
         else {
-            throw new RuntimeException("no transaction found");// custom exception class pending
+            throw new RuntimeException("no transaction found");
         }
     }
 }

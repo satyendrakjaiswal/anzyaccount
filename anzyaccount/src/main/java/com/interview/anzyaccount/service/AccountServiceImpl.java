@@ -26,7 +26,7 @@ public class AccountServiceImpl implements AccountService {
             return optionalAccount.get();
         }
         else {
-            throw new RuntimeException("no account found");// custom exception class pending
+            throw new RuntimeException("no account found");
         }
     }
 }
